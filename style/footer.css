@@ -1,0 +1,36 @@
+footer{
+    background-color: #9DBE39;
+    margin-top: 0;
+    padding: 0; 
+    border: none;
+    
+}
+footer img {
+    display: block; 
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.footer_itens span{
+    color: #1d1d1d;
+    font-weight: 300;
+
+}
+.footer_itens{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.footer_itens .social_media_buttons a{
+    background-color: #E1E9C1;
+    color: #9DBE39;
+}
+
+@media screen and (max-width: 600px){
+    .footer_itens {
+        flex-direction: column;
+        gap: 12px;
+    
+    }
+}

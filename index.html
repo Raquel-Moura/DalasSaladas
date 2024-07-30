@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/x-icon" href="./assests/logo.png" />
+    <title>Dalas Saladas</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar_logo" id="navbarLogo">
+          <img src="./assests/logo.png" alt="salada" class="icone_logo" />
+          <span>Dalas Saladas</span>
+        </div>
+
+        <ul class="nav_list">
+          <li class="nav-item active">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Cardárpio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#avaliações">Avaliações</a>
+          </li>
+        </ul>
+        <button class="btn-default">Peça aqui</button>
+
+        <button class="mobile-btn" onclick="showMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div class="mobile-menu">
+        <ul class="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Cardárpio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Avaliações</a>
+          </li>
+        </ul>
+        <button class="btn-default">Peça aqui</button>
+      </div>
+    </header>
+    <main class="content">
+        <section class="home">
+            <div class="shape"></div>
+            <div class="cta">
+                <h1 class="title">Saúde Requer <br>
+                    <span> Alimentação Saudável</span>
+                </h1>
+                <div class="description">
+                    Fornecendo deliciosas saladas com ingredientes de qualidade.
+                </div>
+                <div class="cta_buttons">
+                    <a href="http://#" class="btn-default">
+                        Ver Cardárpio
+                    </a>
+                    <a href="#" class="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>(11) 3953-6377
+                    </a>
+                </div>
+                <div class="social_media_buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="banner">
+                <img src="./assests/img.png" alt="">
+            </div>
+        </section>
+<!--sessão de menus-->
+        <section class="menu">
+          <h2 class="section_title">Cardápio</h2>
+          <h3 class="section_subtitle">Mais pedidos</h3>
+
+          <div class="salads">
+
+            <div class="salad">
+              <div class="salad_heart">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <img src="./assests/01.png" alt="" class="salads_img">
+              <h3 class="salad_title">Lorem ipsum</h3>
+              <span class="salad_subtitle"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </span>
+              <div class="salad_rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(500+)</span>
+              </div>
+              <div class="salad_price">
+                <h4>R$35,00</h4>
+                <button class="btn-default">
+                  Adicionar a sacola
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="salad">
+              <div class="salad_heart">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <img src="./assests/02.png" alt="" class="salads_img">
+              <h3 class="salad_title">Lorem ipsum</h3>
+              <span class="salad_subtitle"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </span>
+              <div class="salad_rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(500+)</span>
+              </div>
+              <div class="salad_price">
+                <h4>R$35,00</h4>
+                <button class="btn-default">
+                  Adicionar a sacola
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="salad">
+              <div class="salad_heart">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <img src="./assests/03.png" alt="" class="salads_img">
+              <h3 class="salad_title">Lorem ipsum</h3>
+              <span class="salad_subtitle"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </span>
+              <div class="salad_rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(500+)</span>
+              </div>
+              <div class="salad_price">
+                <h4>R$35,00</h4>
+                <button class="btn-default">
+                  Adicionar a sacola
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="salad">
+              <div class="salad_heart">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <img src="./assests/04.png" alt="" class="salads_img">
+              <h3 class="salad_title">Lorem ipsum</h3>
+              <span class="salad_subtitle"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </span>
+              <div class="salad_rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(500+)</span>
+              </div>
+              <div class="salad_price">
+                <h4>R$35,00</h4>
+                <button class="btn-default">
+                  Adicionar a sacola
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+<!--sessão de feedbacks-->
+        <section id='avaliações' class="assessments">
+          <div class="conteit_chef">
+            <img src="./assests/chef.png" alt="">
+          </div>
+
+          <div class="feedback">
+            <h2 class="section_title">Avaliações</h2>
+            <h3 class="section_subtitle">O que estão dizendo sobre nós</h3>
+
+            
+              <div class="all_feedback_content">
+                <div class="feedback_content">
+                  <img src="./assests/Ellipse1.png" alt="">
+                  <p>Nathalia Frei</p>
+                </div>
+                <div class="content_stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, alias"</p>
+                </div>
+              </div>
+              
+              <div class="all_feedback_content">
+                <div class="feedback_content">
+                  <img src="./assests/Ellipse4.png" alt="">
+                  <p>Fernando Reis</p>
+                </div>
+                <div class="content_stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, commodi.</p>
+                </div>
+              </div>
+              <button class="btn-default">Ver mais avaliações</button>
+          </div>
+        </section>
+    </main>
+    <footer>
+      <img src="./assests/wave (1).svg" alt="">
+      <div class="footer_itens">
+        <span>
+          &copy 2004 Raquel Moura 
+        </span>
+        <div class="social_media_buttons">
+          <a href="#">
+              <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="#">
+              <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+          </a> 
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+  </body>
+</html>
